@@ -6,7 +6,7 @@ DEP XXXX: Deal Events Interface - Augmented
 :DEP: XXXX
 :Author: Rich Leto
 :Implementation Team: Area - 51
-:Shepherd: Mike Waters, Dmitriy Rozentul, Greg Armer, Vlad Kotlyar, Chaitanya Shah
+:Shepherd: 
 :Status: Draft
 :Type: Feature
 :Created: 2019-01-22
