@@ -40,18 +40,18 @@ Dynamo Table (eventing_admin)
 
 :Authentication: Authentication model (oauth, key)
 :aws:rep:deleting: Updated by AWS for Multi-Region Replication
-:aws:rep:updatedatetime: - update by AWS for Multi-Region Replication
-:aws:rep:updateregion: - update by AWS for Multi-Region Replication
-:updatedby: - user which updated the record
-:CallBackURL: -  Subscriber URL to push events
-:ClientName (Key): - Name of the Publisher/Subscriber what should this align with? functional area, partner id?
-:ClientType (Sort key): - either Publisher or Subscriber
-:createdAt: - DateTime originally created
-:DeliveryType: - Subscriber (delivery protocol)
-:EventName: - Publisher - Name of Event
-:GUID: - Is this required
-:Options: - Publisher - used for ordering info
-:Status: -  (A - Active, I - Inactive, P - Pending)
+:aws:rep:updatedatetime: Updated by AWS for Multi-Region Replication
+:aws:rep:updateregion: Update by AWS for Multi-Region Replication
+:updatedby: User which updated the record
+:CallBackURL: Subscriber URL to push events
+:ClientName: Name of the Publisher/Subscriber what should this align with? functional area, partner id?
+:ClientType: Publisher or Subscriber
+:createdAt: DateTime originally created
+:DeliveryType: Subscriber (delivery protocol)
+:EventName: Publisher - Name of Event
+:GUID: Is this required?
+:Options: Publisher - used for ordering info
+:Status: (A - Active, I - Inactive, P - Pending)
 
 example:
  .. code-block:: JSON
