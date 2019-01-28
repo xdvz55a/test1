@@ -39,9 +39,9 @@ Dynamo Table (eventing_admin)
 **Schema**
 
 :Authentication: Authentication model (oauth, key)
-:aws:rep:deleting: Updated by AWS for Multi-Region Replication
-:aws:rep:updatedatetime: Updated by AWS for Multi-Region Replication
-:aws:rep:updateregion: Update by AWS for Multi-Region Replication
+:aws-rep-deleting: Updated by AWS for Multi-Region Replication
+:aws-rep-updatedatetime: Updated by AWS for Multi-Region Replication
+:aws-rep-updateregion: Update by AWS for Multi-Region Replication
 :updatedby: User which updated the record
 :CallBackURL: Subscriber URL to push events
 :ClientName: Name of the Publisher/Subscriber what should this align with? functional area, partner id?
