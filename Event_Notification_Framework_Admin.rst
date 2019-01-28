@@ -31,6 +31,8 @@ An Eventing Admin user is created in Cognito.  This user will have the ability t
 
 At the time of registration, a Publisher is added to the dynamo table, a Cognito app_client is created, which will grant access to the publisher API and the events will for this publisher will be added to the A51-Event2Subscriptions table.
 
+Code
+ ====
 
 Dynamo Table (eventing_admin)
 ----------
@@ -51,9 +53,6 @@ Dynamo Table (eventing_admin)
 :aws-rep-deleting: Updated by AWS for Multi-Region Replication
 :aws-rep-updatedatetime: Updated by AWS for Multi-Region Replication
 :aws-rep-updateregion: Updated by AWS for Multi-Region Replication
-
-Code
- ====
 
  example:
   .. code-block:: JSON
@@ -83,9 +82,6 @@ This table is updated when Publishers/Subscribers are added to the Eventing Admi
 
 :event_name: Name of Event registered in eventing_admin table
 :subscribers: Partners that are subscribed to event
-
-Code
- ====
 
  example:
   .. code-block:: JSON
