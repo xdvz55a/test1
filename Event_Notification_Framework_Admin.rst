@@ -52,8 +52,12 @@ Dynamo Table (eventing_admin)
 :aws-rep-updatedatetime: Updated by AWS for Multi-Region Replication
 :aws-rep-updateregion: Updated by AWS for Multi-Region Replication
 
-example:
- .. code-block:: JSON
+Code
+ ====
+
+ example:
+  .. code-block:: JSON
+
   {
     "Authentication": "oauth",
     "aws-rep-deleting": "false",
@@ -80,8 +84,12 @@ This table is updated when Publishers/Subscribers are added to the Eventing Admi
 :event_name: Name of Event registered in eventing_admin table
 :subscribers: Partners that are subscribed to event
 
-example:
- .. code-block:: JSON
+Code
+ ====
+
+ example:
+  .. code-block:: JSON
+  
   {
     "event_name": "A",
     "subscribers": "{"sub01", "sub03.fifo"},
