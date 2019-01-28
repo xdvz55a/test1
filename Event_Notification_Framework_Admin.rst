@@ -38,27 +38,27 @@ Dynamo Table (eventing_admin)
 **Schema**
 
 :Authentication: Authentication model (oauth, key)
-:aws:rep:deleting: Updated by AWS for Multi-Region Replication
-:aws:rep:updatedatetime: - update by AWS for Multi-Region Replication
-:aws:rep:updateregion: - update by AWS for Multi-Region Replication
-:updatedby: - user which updated the record
-:CallBackURL: -  Subscriber URL to push events
-:ClientName (Key): - Name of the Publisher/Subscriber what should this align with? functional area, partner id?
-:ClientType (Sort key): - either Publisher or Subscriber
-:createdAt: - DateTime originally created
-:DeliveryType: - Subscriber (delivery protocol)
-:EventName: - Publisher - Name of Event
-:GUID: - Where will we ge this from?  Do we need it?
-:Options: - Publisher - used for ordering info
-:Status: -  (A - Active, I - Inactive, P - Pending)
+:updatedby: user which updated the record
+:CallBackURL: Subscriber URL to push events
+:ClientName: Name of the Publisher/Subscriber what should this align with? functional area, partner id?
+:ClientType: either Publisher or Subscriber
+:createdAt: DateTime originally created
+:DeliveryType: Subscriber (delivery protocol)
+:EventName: Name of Event
+:GUID: Is this required?
+:Options: Publisher - used for ordering info
+:Status: (A - Active, I - Inactive, P - Pending)
+:aws-rep-deleting: Updated by AWS for Multi-Region Replication
+:aws-rep-updatedatetime: Updated by AWS for Multi-Region Replication
+:aws-rep-updateregion: Updated by AWS for Multi-Region Replication
 
 example:
  .. code-block:: JSON
   {
     "Authentication": "oauth",
-    "aws:rep:deleting": "false",
-    "aws:rep:updatedatetime": "1546466988.009001",
-    "aws:rep:updateregion": "us-west-2",
+    "aws-rep-deleting": "false",
+    "aws-rep-updatedatetime": "1546466988.009001",
+    "aws-rep-updateregion": "us-west-2",
     "updatedby": "ADM3212",
     "CallBackURL": "http://test.com",
     "ClientName": "one",
