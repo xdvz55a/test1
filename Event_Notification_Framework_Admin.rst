@@ -55,6 +55,7 @@ Dynamo Table (eventing_admin)
 
 example:
  .. code-block:: JSON
+ 
   {
     "Authentication": "oauth",
     "aws-rep-deleting": "false",
@@ -82,6 +83,7 @@ This table is updated when Publishers/Subscribers are added to the Eventing Admi
 
 example:
  .. code-block:: JSON
+ 
   {
     "event_name": "A",
     "subscribers": "{"sub01", "sub03.fifo"},
